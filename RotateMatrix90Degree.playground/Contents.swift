@@ -77,6 +77,9 @@ extension Matrix {
 let rows = 5
 var matrix = Matrix(rows: rows, columns: rows)
 matrix.fill()
+matrix.printOut()
+print("\n\n")
+
 matrix.rotate90()
 matrix.printOut()
 
